@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Barcelona</title>
-        <link href='https://fonts.googleapis.com/css?family=Bigelow+Rules' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,300,300italic,400italic,600italic,700italic,800italic' rel='stylesheet' type='text/css'>
-        
-        <style>
-            .main-title {
+.main-title {
                 background-color: #000;
                 margin: 0;
                 padding-bottom: 10px;
@@ -153,43 +145,3 @@
                 }
                     
             }
-            
-        </style>
-    </head>
-    <body>
-        <header class="main-title">
-            <h1 class="barcelona-title">Barcelona</h1>
-            <h3>My most favorite city in the whole world </h3>
-        </header>
-        <div class="flag">
-            <div class="border-red"></div>
-            <div class="border-yellow"></div>
-            <div class="border-red"></div>
-            <div class="border-yellow"></div>
-        </div>
-        
-        <div class="clear"></div>
-        
-        <div class="wrapper">       
-            <div class="nav-section">
-                <a href="index.html" class="section1">The city i love</a>
-            </div>
-            <div class="nav-section">
-                <a href="culture.html" class="section2">Traditions + Legends</a>
-            </div>
-            <div class="nav-section">
-                <a href="art.html" class="section3">Architecture, Art, Artists</a>
-            </div>
-            <div class="nav-section">
-                <a href="food.html" class="section4">Food + Drinks</a>
-            </div>
-        </div> 
-        
-        <div class="clear"></div>
-       
-        <footer>
-            <p>&copy; 2015 Kira Melamed.</p>
-        </footer>
-    
-    </body>
-</html>
