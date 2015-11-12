@@ -32,6 +32,29 @@
                 
             }
             
+            h1 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+            
+            .left, .right {
+               width: 100%;
+               padding: 10px;
+           }
+            
+            .right {
+                background-color: yellow;
+            }
+            
+            .recipe {
+                padding: 10px;
+                border-bottom: 2px dotted #000;
+            }
+            
+            .bold {
+                font-weight: bold;
+            }
+            
             /***************************
             HEADING
             ****************************/
@@ -139,9 +162,36 @@
                     font-size: 0.825em;
                     margin-bottom: 20px;
                 }
+                
+                 .left, .right {
+                display: inline-block;
+                float: left;
+                width: 50%;
+                box-sizing: border-box;
+                 }
+                
+
+                
+               
             }
             
+            /***************
+            Thumbnail
+            ***************/
+            .thumbnail {
+                width: 105px; 
+                height: 105px;
+                cursor: pointer;
+                margin: 4%;
+                
+            }
             
+            .thirty {
+                width: 33%;
+                display: inline-block;
+                float: left;
+                margin: 0 auto;
+            }
         
         </style>
     </head>
@@ -173,6 +223,107 @@
         <div class="clear"></div>
         
         <div id="wrapper"></div>
+        
+            <div class="left">
+                <h1>Recipes and History</h1>
+                <div class="recipe">
+                    <p><span class="bold">Russian Potato Salad</span> is served all over the world, but it doesn't much resemble Olivier's wealthy man's version. In Spain, potatoes, peas, and carrots are almost always present, and it is typical to add tuna as well. In the south they sometimes add shrimp and hard boiled egg. </p> 
+                    <a href="http://spanishsabores.com/2013/04/04/ensaladilla-rusa-recipe-russian-potato-salad/">Click Here For The Recipe</a>
+                </div>
+                <div class="recipe">
+                    <p><span class="bold">Croquetas de Jamon.</span> In Spain, going out before dinner for drinks and tapas is a must. Young and old, single and married, everyone goes out, even moms pushing prams. It's their way to socialize with friends, relax and talk. Every bar has plates with small bites from Potato Tortilla to plain cured Ham, Pimientos de Padron to fried baby squid, I mean, you can dine on all the amazing tapas they make. </p> 
+                    <a href="http://food52.com/recipes/17813-croquetas-de-jamon-serrano-cured-ham-croquetes">Click Here For The Recipe</a>
+                </div>
+                <div class="recipe">
+                    <p><span class="bold">Paella</span>, the classic grilled rice dish from Spain, is perfect for a barbecue because everything cooks together in one pan and absorbs the smoky flavor from the fire. The key to this dish is the crusty caramelized layer of rice, called socarrat, that forms on the bottom of the pan. While the combination of ingredients ranges from the traditional rabbit and snails to vegetables and seafood, this version, known as paella mixta, contains seafood, Spanish chorizo, and chicken. For more Spanish flair, sip on glasses of sangría while the paella’s on the grill. </p> 
+                    <a href="http://www.chowhound.com/recipes/grilled-paella-mixta-paella-with-seafood-and-meat-29656">Click Here For The Recipe</a>
+                </div>
+            </div>
+            <div class="right">
+                <form>
+                    <h2>Suggest a dish you would like to see!</h2>
+                    <input type="text">
+                    <button>Submit</button>
+                </form>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/russiansalad.jpg"                                       onclick="PopImage('http://spanishsabores.com/wp-content/uploads/2013/04/ensaladilla-rusa-recipe.jpg','Russian Salad')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/croc.jpg"                                       onclick="PopImage('http://images.food52.com/MskjW-TRRp-L36OgsUA4PhELZeM=/753x502/6620577f-1663-45ff-92ca-c2891b6853b4--CROQUETAS.jpg','Croquetas de Jamon Serrano')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/paella.jpg"                                       onclick="PopImage('http://www.chowstatic.com/assets/recipe_photos/29656_grilled_paella_mixta.jpg','Seafood Paella')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/russiansalad.jpg"                                       onclick="PopImage('http://spanishsabores.com/wp-content/uploads/2013/04/ensaladilla-rusa-recipe.jpg','Russian Salad')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/croc.jpg"                                       onclick="PopImage('http://images.food52.com/MskjW-TRRp-L36OgsUA4PhELZeM=/753x502/6620577f-1663-45ff-92ca-c2891b6853b4--CROQUETAS.jpg','Croquetas de Jamon Serrano')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/paella.jpg"                                       onclick="PopImage('http://www.chowstatic.com/assets/recipe_photos/29656_grilled_paella_mixta.jpg','Seafood Paella')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/russiansalad.jpg"                                       onclick="PopImage('http://spanishsabores.com/wp-content/uploads/2013/04/ensaladilla-rusa-recipe.jpg','Russian Salad')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/croc.jpg"                                       onclick="PopImage('http://images.food52.com/MskjW-TRRp-L36OgsUA4PhELZeM=/753x502/6620577f-1663-45ff-92ca-c2891b6853b4--CROQUETAS.jpg','Croquetas de Jamon Serrano')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/paella.jpg"                                       onclick="PopImage('http://www.chowstatic.com/assets/recipe_photos/29656_grilled_paella_mixta.jpg','Seafood Paella')" 
+                    />
+                </div>
+                 <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/russiansalad.jpg"                                       onclick="PopImage('http://spanishsabores.com/wp-content/uploads/2013/04/ensaladilla-rusa-recipe.jpg','Russian Salad')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/croc.jpg"                                       onclick="PopImage('http://images.food52.com/MskjW-TRRp-L36OgsUA4PhELZeM=/753x502/6620577f-1663-45ff-92ca-c2891b6853b4--CROQUETAS.jpg','Croquetas de Jamon Serrano')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/paella.jpg"                                       onclick="PopImage('http://www.chowstatic.com/assets/recipe_photos/29656_grilled_paella_mixta.jpg','Seafood Paella')" 
+                    />
+                </div>
+                 <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/russiansalad.jpg"                                       onclick="PopImage('http://spanishsabores.com/wp-content/uploads/2013/04/ensaladilla-rusa-recipe.jpg','Russian Salad')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/croc.jpg"                                       onclick="PopImage('http://images.food52.com/MskjW-TRRp-L36OgsUA4PhELZeM=/753x502/6620577f-1663-45ff-92ca-c2891b6853b4--CROQUETAS.jpg','Croquetas de Jamon Serrano')" 
+                    />
+                </div>
+                <div class="thirty">
+                    <img class="thumbnail" 
+                       src="images/paella.jpg"                                       onclick="PopImage('http://www.chowstatic.com/assets/recipe_photos/29656_grilled_paella_mixta.jpg','Seafood Paella')" 
+                    />
+                </div>             
+
+
+            </div>
+        
         </div>
 
         <div class="clear"></div>
@@ -180,6 +331,56 @@
         <footer>
             <p>&copy; 2015 Kira Melamed.</p>
         </footer>
+    <script type="text/javascript"><!--
+        /* 
+           Full Size Image In Popup
+           Version 1.0
+           November 22, 2011
+
+           Will Bontrager Software, LLC
+           http://www.willmaster.com/
+           Copyright 2011 Will Bontrager Software, LLC
+
+           This software is provided "AS IS," without 
+           any warranty of any kind, without even any 
+           implied warranty such as merchantability 
+           or fitness for a particular purpose.
+           Will Bontrager Software, LLC grants 
+           you a royalty free license to use or 
+           modify this software provided this 
+           notice appears on all copies. 
+        */
+        var PopupImageContainer = new Image();
+        var PopupImageCaption = new String();
+        var PopupImageSRC = new String();
+
+        function PopImage(imagesrc,caption) {
+        if( length.imagesrc < 1 ) { return; }
+        var loadDelay = PopupImageSRC.length ? 1 : 750;
+        PopupImageSRC = imagesrc;
+        PopupImageCaption = caption ? caption : 'Image';
+        PopupImageContainer.src = PopupImageSRC;
+        setTimeout("PopupImageDisplay()",loadDelay);
+        }
+
+        function PopupImageDisplay() {
+        var iw = parseInt(PopupImageContainer.width);
+        var ih = parseInt(PopupImageContainer.height);
+        var ww = iw + 50;
+        var hh = ih + 100;
+        var properties = 'height=' + hh + ',width=' + ww + ',resizable=yes,location=no';
+        var picture = window.open('','',properties);
+        picture.document.writeln('<html><head><title>' + PopupImageCaption + '</title>');
+        picture.document.writeln('<script language="JavaScript"> function CloseMe() { self.close(); } <'+'/script>');
+        picture.document.write('<'+'/head><body onBlur="CloseMe()"><center>');
+        picture.document.write('<img src="' + PopupImageSRC + '" width="' + iw + '" height="' + ih + '" border="0">');
+        picture.document.write('<p>' + PopupImageCaption + '<'+'/p>');
+        picture.document.write('<input type="button" onClick="window.close()" value="Close Window">');
+        picture.document.writeln('<'+'/center><'+'/body><'+'/html>');
+        }
+        //--></script>
+
+
     </body>
 
 </html>
